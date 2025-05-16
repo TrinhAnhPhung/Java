@@ -1,0 +1,25 @@
+Bài 1 :
+
+ 	// Biến và Kiểu dữ liệu 
+
+        // Khai báo và gán giá trị cho biến kiểu số nguyên
+        int soNguyenInt = 10;
+        long soNguyenLong = 100000L; // Thêm 'L' ở cuối để chỉ định đây là kiểu long
+
+        // Khai báo và gán giá trị cho biến kiểu số thực
+        float soThucFloat = 3.14f;   // Thêm 'f' ở cuối để chỉ định đây là kiểu float
+        double soThucDouble = 2.71828;
+
+        // Khai báo và gán giá trị cho biến kiểu ký tự
+        char kyTu = 'A';
+
+        // Khai báo và gán giá trị cho biến kieểu logic (boolean)
+        boolean giaTriLogic = true;
+
+        // In các giá trị ra màn hình
+        System.out.println("Giá trị biến int: " + soNguyenInt);
+        System.out.println("Giá trị biến long: " + soNguyenLong);
+        System.out.println("Giá trị biến float: " + soThucFloat);
+        System.out.println("Giá trị biến double: " + soThucDouble);
+        System.out.println("Giá trị biến char: " + kyTu);
+        System.out.println("Giá trị biến boolean: " + giaTriLogic);

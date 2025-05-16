@@ -1,0 +1,20 @@
+Bài 3 
+
+
+//        Chương trình ép kiểu
+
+    //            Ép kiểu ngầm định
+        int integerInt = 21;
+        long longlong = integerInt;
+        double db = longlong;
+
+        db = 21.12;
+        System.out.println("Ép kiểu ngầm định là " + db);
+//        Ép kiểu tường minh
+
+        double doubleValue = 100.23;
+        long longVaue = (long)  doubleValue;
+        int intValue = (int) longVaue;
+
+
+            System.out.print("Giá trị sau khi ép kiểu tường minh là " + intValue);

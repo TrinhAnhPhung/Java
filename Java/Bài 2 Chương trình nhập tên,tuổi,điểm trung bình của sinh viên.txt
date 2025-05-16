@@ -1,0 +1,16 @@
+Bài 2 :
+
+ //Chương trình nhập tên,tuổi,điểm trung bình của sinh viên
+
+        Scanner scr = new Scanner(System.in);
+
+        System.out.print("Mời nhập tên : ");
+        String name = scr.nextLine();
+
+        System.out.print("Mời nhập tuổi : ");
+        int age = scr.nextInt();
+
+        System.out.print("Mời nhập điểm trung bình : ");
+        float dtb = scr.nextFloat();
+
+        System.out.print("Cảm ơn bạn đã nhập thông tin!");
